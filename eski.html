@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+ <html lang="tr">
+  <head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobil.css">
+    <meta name="google-site-verification" content="Hk-W6GZJzGMxCzSVLcPYrkDlGQ85qSIvuZzjegipFqc" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Grand Sandviç Kahramanmaraş'ın ilk ve tek sandiviçcisi. Denemeye değer lezzetlerle dolu bir mola için sizi dükkanımıza davet ediyoruz. Yüksek kaliteli malzemelerle hazırladığımız maraş sandviç lerimiz sizi bekliyor.">
+    <meta name="keywords" content="maraş sandviç, sandviç maraş, maraş sandviç">
+    <meta name="geo.position" content="37.583;-36.933">
+    
+     
+    <title>Maraş Sandviç</title> 
+    
+      <style>
+    
+
+
+
+
+    body{
+    text-align: center;
+    background: linear-gradient(to bottom right, #c96c47, #FAF6F0);
+    }
+    
+    
+    * {
+    box-sizing: border-box;
+    }  
+ 
+
+    #menü, #sipariş {
+    width: 35%;
+    display: inline-block;
+    border: 1px solid black;  
+    border-radius: 5px;
+    vertical-align: top;
+    
+    }
+   
+   
+    #menü img, #sipariş img, #iletişim img{
+    border-radius: 10px;
+    padding: 3px;
+    height: 50%;
+    }
+    
+   
+    #menü a, #sipariş a{
+    display: inline-block;
+    border: 1px solid black;
+    height: 140px; 
+    width: 70%;
+    border-radius: 7px;
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.3s;
+    background-color:#dcd0d0;
+    
+    }
+   
+   
+    #menü p, #sipariş p{
+    background-color: rgb(203, 54, 54);
+    border-radius: 30px;
+    margin: auto 10%;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif; 
+    width: 80%;
+    
+    }
+   
+   
+    h2{
+    letter-spacing: 2px;
+    font-family: 'Italiana', sans-serif;
+    font-size: 30px;
+    }
+
+
+    #menü a:hover, #sipariş a:hover{
+   color: rgb(18, 18, 18);
+   transform: translateY(-2px);
+   box-shadow: 2px 2px 3px rgb(18, 18, 18);
+   background-color: aliceblue;
+    }
+   
+   
+    #menü a:active, #sipariş a:active, #iletişim a:active{
+   color: aliceblue;
+   transform: translateY(-2px);
+   box-shadow: 2px 2px 3px rgb(18, 18, 18);
+   background-color: black;   
+    }
+
+   
+    #konum, #iletişim {
+    display: inline-block;
+    width: 80%;
+    height: 40%;  
+    border-radius: 5px;
+    margin-top: 3%;
+    }
+   
+   
+    #iletişim p{
+        background-color: rgb(203, 54, 54);
+        border-radius: 8px;
+        margin: 15px 10px;      
+    }
+
+
+    #iletişim a {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 3px;
+    width: 130px; 
+    height: 90px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.3s;
+    background-color:#EEEDED;
+    }  
+
+
+    #iletişim a:hover {
+    background-color: azure;
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 3px rgb(18, 18, 18);
+    color: azure;
+
+    }  
+   
+   
+    #iletişim a:active {
+    background-color: black;
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 3px rgb(18, 18, 18);
+    }  
+
+    
+    iframe{
+    border-radius: 20px;
+    margin: 10px; 
+    transition: 0.3s;
+    }
+
+
+    iframe:hover {
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 3px rgb(18, 18, 18);
+    }
+
+
+    #hakkimizda{
+        margin-bottom: 10%;
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    #sabit2{
+    width: 50%;
+    background: linear-gradient(to right, rgb(31, 29, 29), rgb(245, 6, 6));
+    position: fixed;
+    bottom: 0%;
+    color: aliceblue;
+    border-top-right-radius: 15px;
+    height: 5%;
+    right: 0%;
+    text-align: right;
+    
+    }
+
+
+    #sabit1{
+    width: 51%;
+    background: linear-gradient(to right, rgb(245, 6, 6), rgb(31, 29, 29));
+    position: fixed;
+    bottom: 0%;
+    color: aliceblue;
+    border-top-left-radius: 15px;
+    height: 5%;
+    left: 0%;
+    text-align: left;
+    }
+
+
+    #sabit2 a { 
+    margin-right: 7%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    width: 60px;
+    margin-top: 4px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition:0.3s;
+    }
+
+
+    #sabit2 a:hover { 
+    margin-right: 7%;
+    background-color:aliceblue;
+    color: black;
+    box-shadow: 2px 2px 3px rgb(18, 18, 18);
+    }
+
+
+    #sabit1 p {
+    margin-left: 7%;
+    font-weight: bold;
+    margin-top: 8px;
+    }
+   
+    #sabit2 p{
+      margin-top: 4px;
+    }
+
+     
+      
+    
+
+   </style>
+  </head>
+ <body> 
+ 
+ 
+    <div id="başlik">
+     <img src="IMG_20231128_202046.png" alt="logo" width="35%" >
+    </div>
+
+
+    <div id="menü">
+     <h2>Menü</h2>
+      <a href="grandmenü.html#sandvic"><img src="sandvic.jpg" alt="maraş sandviç"><p>SANDVİÇ</p></a>   
+      <a href="grandmenü.html#tost"><img src="tost.jpg" alt="maraş sandviç"><p>TOST</p></a>     
+       <br>
+      <a href="grandmenü.html#kahvalti"><img src="kahvaltı.jpg" alt="maraş sandviç"><p>KAHVALTI</p></a>
+      <a href="grandmenü.html#içecek"><img src="içecek.jpg" alt="maraş sandviç"><p>İÇECEK</p></a>
+    </div>
+
+
+    <div id="sipariş">
+     <H2>Sipariş</H2>
+      <a href="https://www.trendyol.com/s/trendyol-yemek"><img src="trendyol-yemek-logo-A119EAD68E-seeklogo.com.png" alt="maraş sandviç"><p>TRENDYOL YEMEK</p></a>
+      <a href="https://getir.com/yemek/restoran/grand-sandvic-onikisubat-tekerek-mah-onikisubat-kahramanmaras/" target="_blank"><img src="getir.png" alt="maraş sandviç"><p>GETİR YEMEK</p></a>
+       <br>
+      <a href="https://www.yemeksepeti.com/restaurant/ohwv/grand-sandwich-and-breakfast" target="_blank"><img src="Yemeksepeti Yeni 2021.png" alt="maraş sandviç"><p>YEMEK SEPETİ</p></a>
+      <a href="tel:+905323991146"><img src="paketservis.png" alt="maraş sandviç"><p>TELEFON ET</p></a>
+    </div>
+
+
+    <div id="konum">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.802637041725!2d36.864909075693895!3d37.583264872034206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152ddbcfb7201d9b%3A0x66cc17adf0c79d7b!2sGrand%20Sandvi%C3%A7!5e0!3m2!1str!2str!4v1699531979592!5m2!1str!2str" width="90%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p><b>Adres:</b> Tekerek Mah. Bahçeci Hoca Bulv. No: 40/L, 46050 Onikişubat/Kahramanmaraş</p>
+    </div>
+
+
+    <div id="iletişim">
+     <h2>İletişim</h2>
+      <a href="tel:+905323991146"><img src="Logo-Telefon.png"width="40px" height="40px" alt="maraş sandviç"><p>TELEFON</p></a>
+      <a href="mailto:grandsandviç@gmail.com"><img src="email-icon-png-transparent-email-icon-images-pluspng-3.png"width="40px" height="40px" alt="maraş sandviç"><p>MAİL</p></a>    
+      <a href="https://www.instagram.com/grandsandvic/" target="_blank"><img src="118541-logo-instagram-png-download-free.png"width="40px" height="40px" alt="maraş sandviç"><p>İNSTAGRAM</p></a>
+      <a href="https://twitter.com/home?lang=tr"><img src="logo-black.png.twimg.1920.png"width="40PX" height="40px" alt="maraş sandviç"><p>X</p></a>
+      <a href="https://b83aea11-ed59-4a75-be2f-8674836d3a08-00-2lf9787aqcxcl.sisko.replit.dev" target="_blank"><img src="biz-sizi-arayalım.png"height="40px" width="40px" alt="maraş sandviç"><p>biz sizi arayalım</p></a>
+    </div>
+
+
+    <div id="hakkimizda">
+     <h2>Hakkımızda</h2>
+      <p>Kahramanmaraş'ın ilk ve tek sandiviçcisi. Denemeye değer lezzetlerle dolu bir mola için sizi dükkanımıza davet ediyoruz. Yüksek kaliteli malzemelerle hazırladığımız sandviçlerimiz sizi bekliyor.
+      </p>
+    </div>
+
+
+    <div id="sabit1">
+     <p>Hemen aramak için tıklayın</p>  
+    </div>
+
+
+    <div id="sabit2">
+     <a href="tel:+905323991146"><p>ARA</p></a>    
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+   </div>
+
+
+  </body>
+ </html>
